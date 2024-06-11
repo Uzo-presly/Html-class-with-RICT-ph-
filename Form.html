@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consultation Form</title>
+</head>
+
+<body>
+    <header>
+        <h1>Consultation Form</h1>
+        <nav aria-label="Primary navigation">
+            <Ul>
+                <li><a href="../Home Works/Uzo_CV.html"> About Uzo</a></li>
+
+            </Ul>
+        </nav>
+    </header>
+    <hr>
+    <main>
+        <article>
+            <h3>Consultation is free</h3>
+            <p>My resume is available for your perusal</p>
+            <section><img src="../Home Works/Other pics/Astronaut.jpg" alt="comic pic of an Astronauts head" width="100"
+                    height="150">
+
+                <figcaption>comic pic of an Astronauts' head</figcaption>
+
+            </section>
+            <hr>
+        </article> <!--I am posting the following information to the url of httpbin"-->
+        <form action="https://httpbin.org/post" method="post" target="_blank">
+           >
+        <fieldset>
+            <legend>Bio-data</legend>
+
+
+            <article>
+                <label for="Surname">Surname:</label> <input type="text" name="Fisrt Name" id="Surname"
+                    autocomplete="on" required; placeholder="Ying">
+                <p></p>
+                <label for="First Name">Last Name:</label> <input type="text" name="Last Name" id="Last Name"
+                    autocomplete="on" required placeholder="Yang">
+                <p></p><label for="Phone">Phone</label> <input type="tel" name="Phone" id="Phone" autocomplete="on"
+                    required placeholder="xxxx-xxx-xxxx" >
+            </article>
+
+
+            <p><input type="radio" name="Gender" id="Male" value="Male" required><label for="Male">Male</label>
+                <input type="radio" name="Gender" id="Female" value="Female" required><label for="Female">Female</label><input
+                    type="radio" name="Gender" id="Other" value="Other"><label for="Other">Other</label>
+
+            </p>
+            <p>
+                <input type="date" name="Date of Birth" id="Date of Birth" min="1970" max="2024"><label
+                    for="Date of Birth"> Date of
+                    Birth</label>
+        </fieldset>
+        <p></p>
+        <section>
+            <p>
+            <fieldset>
+                <legend>School section</legend>
+                Select your Institution
+                <select name="Name of Institution" id="Name of your Institution" list="Name of your Institution" option
+                    value="Name of Institution" aria-placeholder="Name of Institution">Select your
+                    Institution
+                    <datalist id="Name of your Institution">
+                        <option value="University of Massachusets">University of Massachusets</option>
+                        <option value="University of Toronto">University of Toronto</option>
+                        <option value="University of Oxford">University of Oxford</option>
+                        <option value="University of salford">University of salford</option>
+                        <option value="University of Missisipi">University of Missisipi</option>
+                        <option value="University of Acra">University of Acra</option>
+                        <option value="University of Port-Harcourt">University of Port-Harcourt</option>
+                        <option value="University of Benin">University of Benin</option>
+                        <option value="University of Calabar">University of Calabar</option>
+                        <option value="University of Uyo">University of Uyo</option>
+                        <option value="University of Jos">University of Jos</option>
+                        <option value="University of Lagos">University of Lagos</option>
+                    </datalist>
+                </select>
+                </p> <label for="Passport">Upload Passport here </label><input type="file" name="  Passport"
+                    id="Passport">
+        </section>
+        </fieldset>
+        <hr>
+        <h3>Message Box</h3>
+        <section><Textarea name="clients' message" id="Send a message" cols="100" rows="20" autofocus
+                placeholder="Send a message"></Textarea>
+        </section>
+        <hr>
+
+        <section></section>
+        <section></section>
+    </main>
+    <footer> <button type="submit" formaction="https://httpbin.org/post" formmethod="post" target="_blank">Post</button>
+       <button type="reset">Reset</button>
+    </form>
+        <section>
+            <h4>Frequently Asked Questions</h4>
+            <details>
+                <summary>Question 1: What is Lorem Ipsum?</summary>
+                <p>Answer: It is default group of sentences for quick fill-n to word spaces;<br> usually for
+                    demonstration purposes.
+                </p>
+            </details>
+            <details>
+                <summary>Question 2: How do i get stated?</summary>
+                <p>Answer: Click the New file icon to start</p>
+            </details>
+            <details>
+                <summary>Question 3: Can i customize settings?</summary>
+                <p>Answer: Yes you can</p>
+            </details>
+            <details>
+                <summary>Question 4: How can i contact customer support?</summary>
+                <p>Answer: Go to the Contact page</p>
+            </details>
+
+        </section>
+        <p>&lt;&lt;&lt;&lt;&lt;&lt; &copy; copyright <a href="../Home Works/Uzo_CV.html" target="_blank">
+                uzo-presly </a>&gt;&gt;&gt;&gt;&gt;&gt;</p>
+
+        <p><a href="#">Back to Top</a></p>
+    </footer>
+    <button> Submit_<img src="../Home Works/Other pics/demo viscode send buuton.JPG" width="20"></button>
+</body>
+
+</html>
